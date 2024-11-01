@@ -97,7 +97,6 @@ def log_temp(temperature):
 	file.close()
 
 	plot.plot(time_array, temp_array, label = "Relacion temperatura [°C]  y TIempo [s]_ 1")
-	
 	plot.xlabel("Tiempo [s]")
 	plot.ylabel("Temperatura [°C]")
 	plot.title("Relacion temperatura [°C]  y Tiempo [s]")
