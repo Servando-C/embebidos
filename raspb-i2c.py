@@ -119,7 +119,6 @@ def update_temp ():
 def main():
 	webServer = HTTPServer(("192.168.2.254", 8080), WebServer)
 	print("Servidor iniciado")
-	print ("\tAtendiendo solicitudes entrantes")
 	try:
 		_thread.start_new_thread(update_temp,())
 		while True:
